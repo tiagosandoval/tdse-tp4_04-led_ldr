@@ -1,0 +1,14 @@
+led_ldr.txt
+ Created on: Jun 25, 2025
+     Author: tiago
+
+     
+Valores resistencia del LDR
+- iluminado: 3k4 
+- oscuro: 13k (poniendo la mano arriba)
+
+se ajusta el trimpot a 13k8
+
+En la experiencia se observa que el ancho del pulso se modifica segun la luz que lee el LDR como resistencia
+(traducida a tensión para ser leida por el pin del micro). A su vez, cuando cambia el pulso del PWM, se ilumina 
+más, por lo que se modifica nuevamente el ancho del pulso y así sucesivamente.

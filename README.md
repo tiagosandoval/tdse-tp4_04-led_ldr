@@ -16,8 +16,10 @@
 6) Conectar el LED blanco al GPIO PA6 (TIM3_CH1), verificando la polaridad y la R a GND
 7) Enfrentar el LED al LDR, procurando disminuir otra fuente de luz.
 8) Debugear el firmware: F11 (Debug) -> F8 
-9) Para cada nueva muestra leida por el ADC (LDR) se levanta una variable booleana. Al detectarla, el PWM cambia el duty cycle. Como resultado, como LDR y LED están enfrentados, la medición del LDR varia según el brillo.
-10) Revisar la consola, ahí se imprime una lista de dos columnas con ambas magnitudes. Copiar la lista en una hoja de cálculo y dibujar ambas curvas.
+9) Para cada nueva muestra leida por el ADC (LDR) se levanta una variable booleana. Al detectarla, el PWM cambia 
+el duty cycle. Como resultado, como LDR y LED están enfrentados, la medición del LDR varia según el brillo.
+10) Revisar la consola, ahí se imprime una lista de dos columnas con ambas magnitudes. Copiar la lista en una 
+hoja de cálculo y dibujar ambas curvas.
 
 Nota: Los resultados deberán registrarse en el archivo led_ldr.txt, en el root de la carpeta app de su repositorio. 
 
